@@ -15,38 +15,39 @@
    <div class ="container mt-5 d-flex justify-content-center">
        <div class="col-6">
            <form id="ValidationForm" novalidate>
-               <div class="mb-3">
-                    <input id="firstName" type="text" class="form-control " placeholder="First Name">
+               
+                <div class="mb-3">
+                    <input id="firstName" required type="text" class="form-control needs-validation" placeholder="First Name">
                     <div id="error-firstName" class="text-danger mt-1 ms-2" style="font-size: 0.9rem;"></div>
                </div>
 
                 <div class="mb-3">
-                    <input id="lastName" type="text" class="form-control " placeholder="Last Name">
+                    <input id="lastName" required type="text" class="form-control needs-validation" placeholder="Last Name">
                     <div id="error-lastName" class="text-danger mt-1 ms-2" style="font-size: 0.9rem;"></div>
                 </div>
 
                 <div class="mb-3">
-                    <input id="email" type="text" class="form-control" placeholder="E-mail Address">
+                    <input id="email" required type="text" class="form-control needs-validation" placeholder="E-mail Address">
                     <div id="error-email" class="text-danger mt-1 ms-2" style="font-size: 0.9rem;"></div>
                 </div>
 
                 <div class="mb-3">
-                     <input id="password" type="password" class="form-control" placeholder="Password">
+                     <input id="password" type="password" class="form-control needs-validation" placeholder="Password">
                      <div id="error-password" class="text-danger mt-1 ms-2" style="font-size: 0.9rem;"></div>
                 </div>
 
                 <div class="mb-3">
-                    <input id="confirmPassword" type="password" class="form-control" placeholder="Confirm Password">
+                    <input id="confirmPassword" required type="password" class="form-control needs-validation" placeholder="Confirm Password">
                     <div id="error-confirmpassword" class="text-danger mt-1 ms-2" style="font-size: 0.9rem;"></div>
                 </div>
                 
                 <div class="mb-3">
-                    <input id="dateOfBirt" type="text" class="form-control" placeholder="Date of birth">
+                    <input id="dateOfBirt" required type="text" class="form-control needs-validation" placeholder="Date of birth">
                     <div id="error-dateOfBirt" class="text-danger mt-1 ms-2" style="font-size: 0.9rem;"></div>
                 </div>
 
                 <div>
-                    <input id="address" type="text" class="form-control mb-3" placeholder="Address">
+                    <input id="address" required type="text" class="form-control needs-validation mb-3" placeholder="Address">
                     <div id="error-address" class="text-danger mt-1 ms-2" style="font-size: 0.9rem;"></div>
                 </div>    
            </form>
@@ -56,6 +57,7 @@
    
    <script src="https://kit.fontawesome.com/124ac6c2b5.js" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-   <script type="module" src="script.js"></script>
+  
 </body>
+ <script type="module" src="script.js"></script>
 </html>
